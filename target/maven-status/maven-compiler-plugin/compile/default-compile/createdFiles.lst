@@ -1,2 +1,6 @@
-com/example/MyDemo/ServletInitializer.class
+com/example/MyDemo/repository/UserRepository.class
 com/example/MyDemo/MyDemoApplication.class
+com/example/MyDemo/ServletInitializer.class
+com/example/MyDemo/service/userService.class
+com/example/MyDemo/model/User.class
+com/example/MyDemo/resource/UserResource.class
