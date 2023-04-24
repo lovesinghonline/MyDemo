@@ -1,10 +1,19 @@
 package com.example.MyDemo.model;
 
 public class User {
+
+
+    private int userId;
     private String name;
     private String address;
     private int age;
+    public int getUserId() {
+        return userId;
+    }
 
+    public void setUserId(int userId) {
+        this.userId = userId;
+    }
     public User(String name, String address, int age) {
         this.name = name;
         this.address = address;
