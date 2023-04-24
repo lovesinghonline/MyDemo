@@ -8,7 +8,7 @@ import java.util.List;
 
 @Repository
 public class UserRepository {
-    public List<User> userList= new ArrayList();
+    public List<User> userList= new ArrayList<>();
     public User getUser(){
        User user =new User("love","canada",28);
         return user;
