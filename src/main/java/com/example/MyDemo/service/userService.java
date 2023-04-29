@@ -27,21 +27,9 @@ public class userService {
     public List<User> getUserByAddress(String address) {
         return userRepository.findAllByAddress(address);
     }
-   /*  public User getUser(){
-      return userRepository.getUser();
+
+
+    public User getUserById(String userId) {
+       return userRepository.findById(userId).get();
     }
-
-
-
-
-
-    public User getUserById(int userId) {
-         return userRepository.getUserById(userId);
-    }
-
-
-
-
-
-    */
 }
